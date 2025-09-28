@@ -27,7 +27,7 @@ variable "main_region" {
 variable "env_name" {
   description = "Environment name (e.g. dev, staging, prod)"
   type        = string
-  default     = "prod"
+  default     = "dev"
 }
 
 variable "tags" {
